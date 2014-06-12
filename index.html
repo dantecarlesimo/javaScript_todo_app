@@ -1,0 +1,29 @@
+<!doctype html>
+
+<head>
+  <title>JavaScript Todo App</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>   
+  <script src="script.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+
+<body id="todoApp">
+
+  <form>
+    <h1>What do you need to do?</h1>
+    <input type="text" id="todoItem" name="Add">
+    <input type="submit" id="addTodo" value="Add Todo">
+  </form><hr>
+
+  <div class="col-lg-3"></div>
+    <div id="todosList" class="col-lg-6"></div>
+  <div class="col-lg-3"></div>
+
+  <div class="col-lg-12">
+    <button id='deleteCompleted'>Delete Completed</button> 
+  </div>
+
+</body>
+</html>
